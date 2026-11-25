@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+dist/
+release/
+.env
+.env.*
+!.env.example
+.DS_Store
+favorites.json
+favorite-topics.json

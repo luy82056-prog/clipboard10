@@ -1,0 +1,40 @@
+{
+  "name": "clipboard10",
+  "productName": "Clipboard10",
+  "version": "1.2.1",
+  "description": "最近十条文本剪贴板记录与常用文字收藏的桌面浮窗",
+  "main": "Sources/main/main.js",
+  "author": "luyouq7",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check Sources/main/main.js && node --check Sources/preload/preload.js && node --check Sources/renderer/renderer.js",
+    "pack:win": "electron-builder --win dir --publish never",
+    "dist:win": "electron-builder --win zip --x64 --publish never",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "electron": "34.0.0",
+    "electron-builder": "24.13.3"
+  },
+  "build": {
+    "appId": "io.github.luyouq7.clipboard10",
+    "productName": "Clipboard10",
+    "asar": true,
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "Sources/**/*",
+      "Assets/app-icon.png",
+      "package.json"
+    ],
+    "win": {
+      "target": "zip",
+      "signAndEditExecutable": false,
+      "artifactName": "Clipboard10-${version}-Windows-x64.zip"
+    },
+    "portable": {
+      "artifactName": "Clipboard10-${version}-Windows-x64.exe"
+    }
+  }
+}

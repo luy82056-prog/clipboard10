@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0935779F9665AA987EEA4094D8D39F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6328C4892EAFAD9DBDBBEEC87035F4B /* Assets.xcassets */; };
+		30B90B3A67801BA1D1037167F02A3709 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D361F873DE5C4CC291A7DAD434127 /* Color+Hex.swift */; };
+		322E306CCD5405B4F9924F5EBF75B53E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582E9CEF55AECD19F8FB471B773D01E /* SettingsView.swift */; };
+		52097D4A7B6C082499244403ED32FF13 /* ClipboardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584240DDB2C8193D0B10BD987743C02A /* ClipboardItemView.swift */; };
+		5AFCE08B4DA27136A192CF4DE1D13AE0 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95CC2C7633D6EBAE1C0ED3B675F63D /* StorageService.swift */; };
+		6255EF3E324D5259B114C14B5403D2DF /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7687A2A22C410A15B362EF86E4615 /* ClipboardItem.swift */; };
+		67FF0E6B11C3B0C53DD8EF2792DD2E9D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CB0905F6D8D46AA4C176603B48A0C4 /* main.swift */; };
+		68DC2AE9D94DEE1F0824B79A6FBA3243 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E98B8F79339B51DE73F73541B8CA0F /* HotKeyManager.swift */; };
+		70A9078C43F74E6F2514C2EC4CC7E4E9 /* FavoritesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5BD8EADB0BCCB957DF3596C5DB93E8 /* FavoritesService.swift */; };
+		7115933559CD8C4D3F22D9A768D7064A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5630EC586927C8CC5594CA4FD8ADD /* ContentView.swift */; };
+		7E635D0A98AAF8B9EA67198E6B42AC80 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EE455EE13822EF8C1F71B640D9D40F /* SettingsService.swift */; };
+		8E6EC956ED2A0BBC48C56FDEDE60481E /* ClipboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EB413E9482008EBFC80434EF3FE223 /* ClipboardViewModel.swift */; };
+		BD22568D10CE2B11DB3D054094EC0276 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A296C615B929DD7084639E00069F1C /* ServiceManagement.framework */; };
+		EA389D68A2726141AC3D8DC910101968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3EDCB6DC2F8D62A416BEA6B23C4DC /* AppDelegate.swift */; };
+		F22F0CE67FB3DE76149344FAB5E56E27 /* ClipboardMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09C99A0C022A3FD959AD207651C44B /* ClipboardMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14E3EDCB6DC2F8D62A416BEA6B23C4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32A7687A2A22C410A15B362EF86E4615 /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		3C09C99A0C022A3FD959AD207651C44B /* ClipboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardMonitor.swift; sourceTree = "<group>"; };
+		4582E9CEF55AECD19F8FB471B773D01E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		56EB413E9482008EBFC80434EF3FE223 /* ClipboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardViewModel.swift; sourceTree = "<group>"; };
+		584240DDB2C8193D0B10BD987743C02A /* ClipboardItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItemView.swift; sourceTree = "<group>"; };
+		5CBE0F937F453D1FEBE6975F1BDDE92F /* Clipboard10.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clipboard10.entitlements; sourceTree = "<group>"; };
+		64FF5EF3921D6CB2594D2125976F559E /* Clipboard10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipboard10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E90D6D17F8F3E785FF29829B6D6D92E /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
+		70CB0905F6D8D46AA4C176603B48A0C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		79EE455EE13822EF8C1F71B640D9D40F /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		A6328C4892EAFAD9DBDBBEEC87035F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA2A1D9021B8D868D217AFAD789132A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5BD8EADB0BCCB957DF3596C5DB93E8 /* FavoritesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesService.swift; sourceTree = "<group>"; };
+		B0E98B8F79339B51DE73F73541B8CA0F /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		B6A296C615B929DD7084639E00069F1C /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ServiceManagement.framework; sourceTree = "<group>"; };
+		C43D361F873DE5C4CC291A7DAD434127 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		CF95CC2C7633D6EBAE1C0ED3B675F63D /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		E2E5630EC586927C8CC5594CA4FD8ADD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		268C06307BE8267F5862CE6FF058F8CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD22568D10CE2B11DB3D054094EC0276 /* ServiceManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51F570C93BEBAB18202C384B236C57F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A296C615B929DD7084639E00069F1C /* ServiceManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6104CB28F33AB4B4F813C93DAA202879 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6328C4892EAFAD9DBDBBEEC87035F4B /* Assets.xcassets */,
+				5CBE0F937F453D1FEBE6975F1BDDE92F /* Clipboard10.entitlements */,
+				AA2A1D9021B8D868D217AFAD789132A6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6254820B6874FEE705240A8903BE5F37 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C43D361F873DE5C4CC291A7DAD434127 /* Color+Hex.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6FD2413813954D813BAE929C9EFD4077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FF5EF3921D6CB2594D2125976F559E /* Clipboard10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A3A1C27A8E42A4BC489571B56B8DBEF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6E90D6D17F8F3E785FF29829B6D6D92E /* .gitkeep */,
+				14E3EDCB6DC2F8D62A416BEA6B23C4DC /* AppDelegate.swift */,
+				70CB0905F6D8D46AA4C176603B48A0C4 /* main.swift */,
+				FB5A403BE47D67F3B5B9453B8A6D58E9 /* Models */,
+				95E2BA7AF31DA7753E6164952E9EC4A6 /* Services */,
+				6254820B6874FEE705240A8903BE5F37 /* Utils */,
+				F8369AA5F90CCCADDAB0C477608F83B3 /* ViewModels */,
+				BD3D10B65BDA2542E424EDDD3E9ECB4F /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		95E2BA7AF31DA7753E6164952E9EC4A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3C09C99A0C022A3FD959AD207651C44B /* ClipboardMonitor.swift */,
+				AB5BD8EADB0BCCB957DF3596C5DB93E8 /* FavoritesService.swift */,
+				B0E98B8F79339B51DE73F73541B8CA0F /* HotKeyManager.swift */,
+				79EE455EE13822EF8C1F71B640D9D40F /* SettingsService.swift */,
+				CF95CC2C7633D6EBAE1C0ED3B675F63D /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BD3D10B65BDA2542E424EDDD3E9ECB4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				584240DDB2C8193D0B10BD987743C02A /* ClipboardItemView.swift */,
+				E2E5630EC586927C8CC5594CA4FD8ADD /* ContentView.swift */,
+				4582E9CEF55AECD19F8FB471B773D01E /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F14982A986C08AFB59E0A6C7BA194C36 = {
+			isa = PBXGroup;
+			children = (
+				6104CB28F33AB4B4F813C93DAA202879 /* Resources */,
+				8A3A1C27A8E42A4BC489571B56B8DBEF /* Sources */,
+				51F570C93BEBAB18202C384B236C57F4 /* Frameworks */,
+				6FD2413813954D813BAE929C9EFD4077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8369AA5F90CCCADDAB0C477608F83B3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				56EB413E9482008EBFC80434EF3FE223 /* ClipboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FB5A403BE47D67F3B5B9453B8A6D58E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32A7687A2A22C410A15B362EF86E4615 /* ClipboardItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C6633825E456A1C00AD6D53569C38A /* Clipboard10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DE779ADC5C8DCA4CDF5324611D3834 /* Build configuration list for PBXNativeTarget "Clipboard10" */;
+			buildPhases = (
+				465A23495761B8FE5DF4F1FA0ECF30FA /* Sources */,
+				332ADA348D65158B44435F3A9CA8F0D9 /* Resources */,
+				268C06307BE8267F5862CE6FF058F8CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clipboard10;
+			productName = Clipboard10;
+			productReference = 64FF5EF3921D6CB2594D2125976F559E /* Clipboard10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88ADED2FD474C51E954F0F541F4A5CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					96C6633825E456A1C00AD6D53569C38A = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 86A24142E8102D215C9ADB64D8937D7D /* Build configuration list for PBXProject "Clipboard10" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F14982A986C08AFB59E0A6C7BA194C36;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C6633825E456A1C00AD6D53569C38A /* Clipboard10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332ADA348D65158B44435F3A9CA8F0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0935779F9665AA987EEA4094D8D39F7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465A23495761B8FE5DF4F1FA0ECF30FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA389D68A2726141AC3D8DC910101968 /* AppDelegate.swift in Sources */,
+				6255EF3E324D5259B114C14B5403D2DF /* ClipboardItem.swift in Sources */,
+				52097D4A7B6C082499244403ED32FF13 /* ClipboardItemView.swift in Sources */,
+				F22F0CE67FB3DE76149344FAB5E56E27 /* ClipboardMonitor.swift in Sources */,
+				8E6EC956ED2A0BBC48C56FDEDE60481E /* ClipboardViewModel.swift in Sources */,
+				30B90B3A67801BA1D1037167F02A3709 /* Color+Hex.swift in Sources */,
+				7115933559CD8C4D3F22D9A768D7064A /* ContentView.swift in Sources */,
+				70A9078C43F74E6F2514C2EC4CC7E4E9 /* FavoritesService.swift in Sources */,
+				68DC2AE9D94DEE1F0824B79A6FBA3243 /* HotKeyManager.swift in Sources */,
+				7E635D0A98AAF8B9EA67198E6B42AC80 /* SettingsService.swift in Sources */,
+				322E306CCD5405B4F9924F5EBF75B53E /* SettingsView.swift in Sources */,
+				5AFCE08B4DA27136A192CF4DE1D13AE0 /* StorageService.swift in Sources */,
+				67FF0E6B11C3B0C53DD8EF2792DD2E9D /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C4ACB2E0395DFF996181DE1D220E472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = Clipboard10;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		85F092DBDBB332ED567358C7C5A8607C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = Clipboard10;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		BEF340C7CE3EE681CEC8EAEF17337A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/Clipboard10.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LSUIElement = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipboard10.Clipboard10;
+			};
+			name = Debug;
+		};
+		CBAD305E3D977FD2BB8BF9A45D861AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/Clipboard10.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LSUIElement = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipboard10.Clipboard10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60DE779ADC5C8DCA4CDF5324611D3834 /* Build configuration list for PBXNativeTarget "Clipboard10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF340C7CE3EE681CEC8EAEF17337A43 /* Debug */,
+				CBAD305E3D977FD2BB8BF9A45D861AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		86A24142E8102D215C9ADB64D8937D7D /* Build configuration list for PBXProject "Clipboard10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4ACB2E0395DFF996181DE1D220E472 /* Debug */,
+				85F092DBDBB332ED567358C7C5A8607C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88ADED2FD474C51E954F0F541F4A5CF7 /* Project object */;
+}

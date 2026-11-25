@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'">
+    <title>Clipboard 10</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="app-shell collapsed" id="appShell">
+        <section class="collapsed-bar" aria-label="Clipboard 10 已收起">
+            <div class="grip" title="拖动浮窗"></div>
+            <button class="collapsed-trigger" id="expandButton" type="button" aria-label="展开 Clipboard 10">
+                <span class="collapsed-mark">10</span>
+                <span class="collapsed-copy">
+                    <span class="collapsed-kicker">CLIPBOARD</span>
+                    <span class="collapsed-title" id="collapsedPreview">文字暂存器</span>
+                </span>
+                <span class="collapsed-arrow">›</span>
+            </button>
+        </section>
+
+        <section class="expanded-panel" aria-label="Clipboard 10">
+            <header class="masthead">
+                <div>
+                    <div class="edition">A PRIVATE TEXT ARCHIVE · No. 10</div>
+                    <h1 class="brand">Clipboard <span>/ 10</span></h1>
+                    <p class="tagline">让重要的文字，停留得刚刚好。</p>
+                </div>
+                <button class="collapse-button" id="collapseButton" type="button" title="收起为浮窗" aria-label="收起为浮窗">—</button>
+            </header>
+
+            <nav class="tab-row" aria-label="剪贴板分类">
+                <button class="tab active" id="recentTab" type="button" data-tab="recent">最近</button>
+                <button class="tab" id="favoritesTab" type="button" data-tab="favorites">常用</button>
+                <span class="record-count" id="recordCount">00 / 10</span>
+            </nav>
+
+            <div class="list" id="list"></div>
+
+            <div class="actions" id="recentActions">
+                <button class="btn primary" id="copyAllButton" type="button">复制全部</button>
+                <button class="btn" id="dedupeButton" type="button">整理去重</button>
+                <button class="btn" id="clearAllButton" type="button">清空</button>
+            </div>
+
+            <div class="actions single hidden" id="favoritesActions">
+                <button class="btn primary" id="addCurrentButton" type="button">将当前剪贴板收入常用</button>
+            </div>
+
+            <footer class="settings-strip">
+                <div>
+                    <span class="setting-name">随 Windows 启动</span>
+                    <span class="setting-note">开机后静默常驻为浮窗</span>
+                </div>
+                <label class="switch" title="设置开机自启动">
+                    <input id="autoLaunchToggle" type="checkbox" aria-label="随 Windows 启动">
+                    <span class="switch-track"></span>
+                </label>
+            </footer>
+        </section>
+    </main>
+
+    <dialog id="favoriteEditor">
+        <form id="favoriteForm">
+            <h2>编辑常用</h2>
+            <label for="favoriteTopic">主题 <small>选填，最多 60 字</small></label>
+            <input id="favoriteTopic" maxlength="60" placeholder="例如：会议邀请、收货地址">
+            <label for="favoriteBody">正文 <small>复制时只取这里的内容</small></label>
+            <textarea id="favoriteBody" required rows="7" placeholder="输入要保存的文字"></textarea>
+            <p id="editorError" role="alert"></p>
+            <div class="editor-actions"><button type="button" id="cancelFavorite" class="btn">取消</button><button type="submit" id="saveFavorite" class="btn primary">保存</button></div>
+        </form>
+    </dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="renderer.js"></script>
+</body>
+</html>

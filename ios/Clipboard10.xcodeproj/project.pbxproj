@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1727E14FAFEA290805D6297C2183F218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3568A03AD67DC0AB28075BA53223C240 /* Assets.xcassets */; };
+		2B7A39A681008FC0A88EEB76CDCC7EB1 /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A735F83B23B534EC9945717E0FDB92D1 /* ClipboardManager.swift */; };
+		47DCF4E589C369C5F9E0033B6794E7EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D5A03E6D7750E0C1BDB41B5CF7C79 /* AppDelegate.swift */; };
+		A0F6C90EA8F42C9912BB588C4F1AE52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB57D284A317828F4A33876EA74817C /* LaunchScreen.storyboard */; };
+		E0F53FBD87ABCF1790BAE1C0AA835A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CC4E613608DDFF85AE3023D763DBF /* SceneDelegate.swift */; };
+		F80CEC0F9BBB7A04E01C18B87E97194A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617CA9FCAA7013E186C37485C0E717DB /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FB57D284A317828F4A33876EA74817C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3568A03AD67DC0AB28075BA53223C240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E1013BB436F3140E4B1A1555325A644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617CA9FCAA7013E186C37485C0E717DB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		64FF5EF3921D6CB2594D2125976F559E /* Clipboard10.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Clipboard10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11CC4E613608DDFF85AE3023D763DBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A735F83B23B534EC9945717E0FDB92D1 /* ClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManager.swift; sourceTree = "<group>"; };
+		A83D5A03E6D7750E0C1BDB41B5CF7C79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2C0ECF003D38DB07DED624698608EBC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6FD2413813954D813BAE929C9EFD4077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64FF5EF3921D6CB2594D2125976F559E /* Clipboard10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A3A1C27A8E42A4BC489571B56B8DBEF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F44D138AA5D0E1D4D9221C214EC936DC /* App */,
+				FB5A403BE47D67F3B5B9453B8A6D58E9 /* Models */,
+				2C0ECF003D38DB07DED624698608EBC3 /* Resources */,
+				95E2BA7AF31DA7753E6164952E9EC4A6 /* Services */,
+				F8369AA5F90CCCADDAB0C477608F83B3 /* ViewModels */,
+				BD3D10B65BDA2542E424EDDD3E9ECB4F /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		95E2BA7AF31DA7753E6164952E9EC4A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A735F83B23B534EC9945717E0FDB92D1 /* ClipboardManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BD3D10B65BDA2542E424EDDD3E9ECB4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				617CA9FCAA7013E186C37485C0E717DB /* MainViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F14982A986C08AFB59E0A6C7BA194C36 = {
+			isa = PBXGroup;
+			children = (
+				8A3A1C27A8E42A4BC489571B56B8DBEF /* Sources */,
+				6FD2413813954D813BAE929C9EFD4077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44D138AA5D0E1D4D9221C214EC936DC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A83D5A03E6D7750E0C1BDB41B5CF7C79 /* AppDelegate.swift */,
+				3568A03AD67DC0AB28075BA53223C240 /* Assets.xcassets */,
+				5E1013BB436F3140E4B1A1555325A644 /* Info.plist */,
+				0FB57D284A317828F4A33876EA74817C /* LaunchScreen.storyboard */,
+				A11CC4E613608DDFF85AE3023D763DBF /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F8369AA5F90CCCADDAB0C477608F83B3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FB5A403BE47D67F3B5B9453B8A6D58E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C6633825E456A1C00AD6D53569C38A /* Clipboard10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60DE779ADC5C8DCA4CDF5324611D3834 /* Build configuration list for PBXNativeTarget "Clipboard10" */;
+			buildPhases = (
+				465A23495761B8FE5DF4F1FA0ECF30FA /* Sources */,
+				332ADA348D65158B44435F3A9CA8F0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clipboard10;
+			productName = Clipboard10;
+			productReference = 64FF5EF3921D6CB2594D2125976F559E /* Clipboard10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88ADED2FD474C51E954F0F541F4A5CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					96C6633825E456A1C00AD6D53569C38A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 86A24142E8102D215C9ADB64D8937D7D /* Build configuration list for PBXProject "Clipboard10" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F14982A986C08AFB59E0A6C7BA194C36;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C6633825E456A1C00AD6D53569C38A /* Clipboard10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332ADA348D65158B44435F3A9CA8F0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1727E14FAFEA290805D6297C2183F218 /* Assets.xcassets in Resources */,
+				A0F6C90EA8F42C9912BB588C4F1AE52F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465A23495761B8FE5DF4F1FA0ECF30FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DCF4E589C369C5F9E0033B6794E7EF /* AppDelegate.swift in Sources */,
+				2B7A39A681008FC0A88EEB76CDCC7EB1 /* ClipboardManager.swift in Sources */,
+				F80CEC0F9BBB7A04E01C18B87E97194A /* MainViewController.swift in Sources */,
+				E0F53FBD87ABCF1790BAE1C0AA835A2D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C4ACB2E0395DFF996181DE1D220E472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = Clipboard10;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		85F092DBDBB332ED567358C7C5A8607C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_NAME = Clipboard10;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		BEF340C7CE3EE681CEC8EAEF17337A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipboard10.Clipboard10;
+			};
+			name = Debug;
+		};
+		CBAD305E3D977FD2BB8BF9A45D861AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clipboard10.Clipboard10;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60DE779ADC5C8DCA4CDF5324611D3834 /* Build configuration list for PBXNativeTarget "Clipboard10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF340C7CE3EE681CEC8EAEF17337A43 /* Debug */,
+				CBAD305E3D977FD2BB8BF9A45D861AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		86A24142E8102D215C9ADB64D8937D7D /* Build configuration list for PBXProject "Clipboard10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C4ACB2E0395DFF996181DE1D220E472 /* Debug */,
+				85F092DBDBB332ED567358C7C5A8607C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88ADED2FD474C51E954F0F541F4A5CF7 /* Project object */;
+}
